@@ -10,7 +10,7 @@ sizeof(a1)=4, strlen(a1)=0。
 sizeof(a2)=4, strlen(a2)=随机。若加入memset(a2, 0, 3); 语句，则strlen(a2)=0.
 
 （3）char a3[]="abc";
-sizeof(a3)=4(多算一位\0), strlen(a3)=3.
+sizeof(a3)=4(多算一位'\0'), strlen(a3)=3.
 
 （4）char a4[3]={0};
 sizeof(a4)=3, strlen(a4)=0.
